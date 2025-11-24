@@ -1,20 +1,6 @@
-#lottery game
-line01 = "*******************************************************"
-line02 = "**********************LOTTERY**************************"
-line03 = "***********************GAME****************************"
-
-print(line01)
-print(line01)
-print(line01)
-print(line01)
-print(line01)
-print(line02)
-print(line03)
-print(line01)
-print(line01)
-print(line01)
-print(line01)
-print(line01)
+from art import text2art
+result = text2art("LOTTERY GAME")
+print(result)
 
 #game guideline
 value = (
@@ -82,6 +68,7 @@ lottery()
 
     
         
+
 
 
 
